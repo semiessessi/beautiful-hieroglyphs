@@ -1,7 +1,7 @@
 {
   "name": "Beautiful Hieroglyphs",
   "version": "0.1",
-  "description": "Replace wikihiero images with beautful, coloured equivalents.",
+  "description": "Replace wikihiero images with beautiful, coloured equivalents.",
   "manifest_version": 3,
   "content_scripts": [{
       "matches": ["<all_urls>"],
