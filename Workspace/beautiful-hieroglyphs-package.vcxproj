@@ -86,6 +86,15 @@
     <None Include="..\Code\generate_manifests.bat" />
     <None Include="..\Code\implementation.js" />
     <None Include="..\Code\package_to_zip.bat" />
+    <None Include="..\Manifest\browser_specifics_firefox.json_fragment" />
+    <None Include="..\Manifest\browser_specifics_safari.json_fragment" />
+    <None Include="..\Manifest\description.json_fragment" />
+    <None Include="..\Manifest\manifest_bulk.json_fragment" />
+    <None Include="..\Manifest\manifest_prefix.json_fragment" />
+    <None Include="..\Manifest\manifest_suffix.json_fragment" />
+    <None Include="..\Manifest\manifest_version_2.json_fragment" />
+    <None Include="..\Manifest\manifest_version_3.json_fragment" />
+    <None Include="..\Manifest\version.json_fragment" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
