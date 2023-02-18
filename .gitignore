@@ -1,1 +1,5 @@
 beautiful-hieroglyphs.zip
+Build
+Workspace/.vs
+*.user
+Workspace/x64/
