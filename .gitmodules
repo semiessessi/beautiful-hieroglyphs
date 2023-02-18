@@ -1,0 +1,3 @@
+[submodule "wikihiero-image-generator"]
+	path = wikihiero-image-generator
+	url = https://github.com/semiessessi/wikihiero-image-generator.git
