@@ -4,3 +4,4 @@ Workspace/.vs
 *.user
 Workspace/x64/
 Data/
+assets/js/contentScript.js

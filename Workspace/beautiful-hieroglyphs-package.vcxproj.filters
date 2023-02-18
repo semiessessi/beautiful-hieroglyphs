@@ -1,2 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{54bfc860-2501-40d7-8fd9-6a448e9cfadf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Code\generate_code.bat">
+      <Filter>Code</Filter>
+    </None>
+    <None Include="..\Code\generate_manifest.bat">
+      <Filter>Code</Filter>
+    </None>
+    <None Include="..\Code\implementation.js">
+      <Filter>Code</Filter>
+    </None>
+  </ItemGroup>
+</Project>
