@@ -9,10 +9,13 @@
     <None Include="..\Code\generate_code.bat">
       <Filter>Code</Filter>
     </None>
-    <None Include="..\Code\generate_manifest.bat">
+    <None Include="..\Code\generate_manifests.bat">
       <Filter>Code</Filter>
     </None>
     <None Include="..\Code\implementation.js">
+      <Filter>Code</Filter>
+    </None>
+    <None Include="..\Code\package_to_zip.bat">
       <Filter>Code</Filter>
     </None>
   </ItemGroup>

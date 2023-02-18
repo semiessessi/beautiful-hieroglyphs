@@ -51,7 +51,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <PostBuildEvent>
-      <Command>cd $(SolutionDir) &amp;&amp; cd .. &amp;&amp; package_to_zip.bat &amp;&amp; copy /y $(SolutionDir)..\beautiful-hieroglyphs.zip $(TargetPath)</Command>
+      <Command>cd $(SolutionDir) &amp;&amp; cd .. &amp;&amp; Code\package_to_zip.bat &amp;&amp; copy /y $(SolutionDir)..\beautiful-hieroglyphs.zip $(TargetPath)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -59,7 +59,7 @@
       <Message>Generating package...</Message>
     </PostBuildEvent>
     <PreBuildEvent>
-      <Command>del /s /q $(SolutionDir)..\Data\* &amp;&amp; cd $(SolutionDir) &amp;&amp; cd ..\wikihiero-image-generator\recoloured-tuxscribe-hieroglyphs\png &amp;&amp; $(SolutionDir)..\Build\wikihiero-image-generator -o=..\..\..\Data\ -js -optipng &amp;&amp; cd $(SolutionDir)..\Code &amp;&amp; generate_code.bat</Command>
+      <Command>del /s /q $(SolutionDir)..\Data\* &amp;&amp; cd $(SolutionDir) &amp;&amp; cd ..\wikihiero-image-generator\recoloured-tuxscribe-hieroglyphs\png &amp;&amp; $(SolutionDir)..\Build\wikihiero-image-generator -o=..\..\..\Data\ -js -optipng &amp;&amp; cd $(SolutionDir)..\Code &amp;&amp; generate_code.bat &amp;&amp; cd $(SolutionDir)..\Code &amp;&amp; generate_manifests.bat</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Generating image data and code...</Message>
@@ -67,7 +67,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <PostBuildEvent>
-      <Command>cd $(SolutionDir) &amp;&amp; cd .. &amp;&amp; package_to_zip.bat &amp;&amp; copy /y $(SolutionDir)..\beautiful-hieroglyphs.zip $(TargetPath)</Command>
+      <Command>cd $(SolutionDir) &amp;&amp; cd .. &amp;&amp; Code\package_to_zip.bat &amp;&amp; copy /y $(SolutionDir)..\beautiful-hieroglyphs.zip $(TargetPath)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -75,7 +75,7 @@
       <Message>Generating package...</Message>
     </PostBuildEvent>
     <PreBuildEvent>
-      <Command>del /s /q $(SolutionDir)..\Data\* &amp;&amp; cd $(SolutionDir) &amp;&amp; cd ..\wikihiero-image-generator\recoloured-tuxscribe-hieroglyphs\png &amp;&amp; $(SolutionDir)..\Build\wikihiero-image-generator -o=..\..\..\Data\ -js -optipng &amp;&amp; cd $(SolutionDir)..\Code &amp;&amp; generate_code.bat</Command>
+      <Command>del /s /q $(SolutionDir)..\Data\* &amp;&amp; cd $(SolutionDir) &amp;&amp; cd ..\wikihiero-image-generator\recoloured-tuxscribe-hieroglyphs\png &amp;&amp; $(SolutionDir)..\Build\wikihiero-image-generator -o=..\..\..\Data\ -js -optipng &amp;&amp; cd $(SolutionDir)..\Code &amp;&amp; generate_code.bat &amp;&amp; cd $(SolutionDir)..\Code &amp;&amp; generate_manifests.bat</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Generating image data and code...</Message>
@@ -83,8 +83,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="..\Code\generate_code.bat" />
-    <None Include="..\Code\generate_manifest.bat" />
+    <None Include="..\Code\generate_manifests.bat" />
     <None Include="..\Code\implementation.js" />
+    <None Include="..\Code\package_to_zip.bat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
-beautiful-hieroglyphs.zip
+beautiful-hieroglyphs*.zip
+manifest*.json
 Build
 Workspace/.vs
 *.user
