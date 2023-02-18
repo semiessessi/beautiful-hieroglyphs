@@ -3,3 +3,4 @@ Build
 Workspace/.vs
 *.user
 Workspace/x64/
+Data/

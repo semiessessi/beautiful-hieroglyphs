@@ -58,6 +58,12 @@
     <PostBuildEvent>
       <Message>Generating package...</Message>
     </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>del /s /q $(SolutionDir)..\Data\* &amp;&amp; cd $(SolutionDir) &amp;&amp; cd ..\wikihiero-image-generator\recoloured-tuxscribe-hieroglyphs\png &amp;&amp; $(SolutionDir)..\Build\wikihiero-image-generator -o=..\..\..\Data\ -js -optipng</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Generating image data...</Message>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <PostBuildEvent>
@@ -68,6 +74,12 @@
     <PostBuildEvent>
       <Message>Generating package...</Message>
     </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>del /s /q $(SolutionDir)..\Data\* &amp;&amp; cd $(SolutionDir) &amp;&amp; cd ..\wikihiero-image-generator\recoloured-tuxscribe-hieroglyphs\png &amp;&amp; $(SolutionDir)..\Build\wikihiero-image-generator -o=..\..\..\Data\ -js -optipng</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Generating image data...</Message>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
   </ItemGroup>
