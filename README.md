@@ -7,11 +7,11 @@ supported by most browsers.
 Public Releases
 ---------------
 
-[Chrome Extension](https://chrome.google.com/webstore/detail/beautiful-hieroglyphs/ejdjggchjcccilcghndkdcnllinanmch)
-[Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/beautiful-hieroglyphs/versions/)
-[Edge Extension](https://microsoftedge.microsoft.com/addons/detail/gepahhpjaofbclkokipclbppfmjkfbga)
-Opera Add-on coming soon.
-Safari Web Extension planned for the future.
+* [Chrome Extension](https://chrome.google.com/webstore/detail/beautiful-hieroglyphs/ejdjggchjcccilcghndkdcnllinanmch)
+* [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/beautiful-hieroglyphs/versions/)
+* [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/gepahhpjaofbclkokipclbppfmjkfbga)
+* Opera Add-on coming soon.
+* Safari Web Extension planned for the future.
 
 Build Instructions
 ------------------
