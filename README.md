@@ -10,7 +10,7 @@ Public Releases
 * [Chrome Extension](https://chrome.google.com/webstore/detail/beautiful-hieroglyphs/ejdjggchjcccilcghndkdcnllinanmch)
 * [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/beautiful-hieroglyphs/versions/)
 * [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/gepahhpjaofbclkokipclbppfmjkfbga)
-* Opera Add-on coming soon.
+* [Opera Add-on](https://addons.opera.com/en/extensions/details/beautiful-hieroglyphs/)
 * Safari Web Extension planned for the future.
 
 Build Instructions
