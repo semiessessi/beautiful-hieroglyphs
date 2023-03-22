@@ -15,7 +15,7 @@ function save_options()
 		setTimeout(function()
 			{
 				status.textContent = '';
-			}, 750);
+			}, 2750);
   	});
 }
 
