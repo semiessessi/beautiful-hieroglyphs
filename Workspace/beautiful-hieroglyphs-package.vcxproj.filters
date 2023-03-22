@@ -48,5 +48,8 @@
     <None Include="..\Manifest\version.json_fragment">
       <Filter>Manifest</Filter>
     </None>
+    <None Include="..\Code\options_chrome.js">
+      <Filter>Code</Filter>
+    </None>
   </ItemGroup>
 </Project>
