@@ -6,3 +6,4 @@ Workspace/.vs
 Workspace/x64/
 Data/
 assets/js/contentScript.js
+assets/js/options.js

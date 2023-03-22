@@ -1,7 +1,7 @@
 function save_options()
 {
   var fontName = document.getElementById('font').value;
-  var unicodeAltTextChecked = document.getElementById('unicode-alt-text').checked;
+  var unicodeAltTextChecked = false; //document.getElementById('unicode-alt-text').checked;
   chrome.storage.sync.set(
 	{
 		font: fontName,
@@ -29,7 +29,7 @@ function restore_options()
 	function(items)
 	{
 		document.getElementById('font').value = items.font;
-		document.getElementById('unicode-alt-text').checked = items.unicodeAltText;
+		//document.getElementById('unicode-alt-text').checked = items.unicodeAltText;
 	});
 }
 
