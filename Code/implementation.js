@@ -11,7 +11,7 @@ chrome.storage.sync.get(
 		var lookup = tux;
 		if(items.font == 'gardiner')
 		{
-			lookup = garinder;
+			lookup = gardiner;
 		}
 
 		let images = document.getElementsByTagName('img');
