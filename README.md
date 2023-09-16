@@ -13,6 +13,8 @@ Public Releases
 * [Opera Add-on](https://addons.opera.com/en/extensions/details/beautiful-hieroglyphs/)
 * Safari Web Extension planned for the future.
 
+![Screenshot](screenshot.jpg)
+
 Build Instructions
 ------------------
 
